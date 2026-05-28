@@ -1,0 +1,13 @@
+ques -- Array aur LL me hoga
+
+
+sorted or need sorting
+merge , remove duplicate , rearrange ,
+LL me detect cycle ya cycle ban jaye,
+find a pair or 3 or 4 ..
+number manga ho index nahi , ya fir sorted hai to index ajayega
+do not use extra space , or find 1+ things
+
+
+agar ek hi posn par do pointer agaye to khatam hai khel , uske aage nahi chalna whai program dena hai 
+
