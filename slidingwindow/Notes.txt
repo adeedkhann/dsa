@@ -1,0 +1,22 @@
+window can expand and shrink
+h++ expand
+low--  shrink
+
+array ya string par lagega , LL par nahi lagega
+
+subarray , substring dikhe ya smajh me aye tab lagega
+continuos , hote hai subarray and substring
+sub sequence par nahi lagta ye 
+
+max , min , longeset, shortese ya to sum , count , average , atmost k , atleast k
+exactly k
+
+two types 
+1 fix 
+2 dynamic
+
+subarray of lenght 3 and max of their sum
+
+
+
+
