@@ -1,50 +1,36 @@
 class Solution {
 public:
-    string minWindow(string s, string t) {
-        unordered_map<char, int> need;
 
-        for (char c : t) {
-            need[c]++;
-        }
-
-        int required = need.size();
-        int formed = 0;
-
-        unordered_map<char, int> window;
-
-        int left = 0, right = 0;
-
-        int minLen = INT_MAX;
-        int start = 0;
-
-        while (right < s.size()) {
-            char c = s[right];
-            window[c]++;
-
-            if (need.count(c) && window[c] == need[c]) {
-                formed++;
+    bool sahiHai(vector<int>&have , vector<int>&needed){
+        for(int i=0;i<256;i++){
+            if(have[i]<needed[i]){
+                return false ;
             }
-
-            while (left <= right && formed == required) {
-
-                if (right - left + 1 < minLen) {
-                    minLen = right - left + 1;
-                    start = left;
-                }
-
-                char ch = s[left];
-                window[ch]--;
-
-                if (need.count(ch) && window[ch] < need[ch]) {
-                    formed--;
-                }
-
-                left++;
-            }
-
-            right++;
-        }
-
-        return minLen == INT_MAX ? "" : s.substr(start, minLen);
+        }return true;
     }
+
+
+    string minWindow(string s, string t) {
+       vector<int> needed(256,0);
+        vector<int> have(256,0);
+        int res = INT_MAX;
+         int start=0;
+        for(int i = 0; i < t.size(); i++) {
+    needed[t[i]]++;
+}
+
+        int low=0,high=0;
+        for(high=0;high<s.size();high++){
+            have[s[high]]++;
+            while(sahiHai(have  , needed)){
+                int len=high-low+1;
+                if(res>len){
+                    res=len;
+                    start = low;
+                }
+                have[s[low]]--;
+                low++;
+            }
+        }return res == INT_MAX ? "" : s.substr(start, res);
+}
 };
