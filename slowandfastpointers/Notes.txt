@@ -1,0 +1,27 @@
+linklist array aur any place pr use ho sakte hai 
+kab use karn hai ?
+jab cycle / loop / repeatition pata karna ho 
+
+
+slow -> move 1 step
+fast -> move 2,3.. steps
+
+agar fast slow ko cross kr gya to loop banega warna nahi
+
+boiler plate
+
+
+slow = head 
+fast = head 
+while(fast!=null && fast->next!=null){
+    slow = slow -> next
+    fast = fast ->next -> next;
+    if(slow==fast){
+        true , cycle ban gyi
+    }
+
+    
+} loop se bahar agaye to matlab fast pointer linklist se nikal gaya aur cycle nahi bani 
+
+
+false;
