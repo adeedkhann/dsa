@@ -1,6 +1,8 @@
-linklist array aur any place pr use ho sakte hai 
+linklist array , number string aur any place , kahi bhi use ho sakte hai 
 kab use karn hai ?
 jab cycle / loop / repeatition pata karna ho 
+cycle ka start point find karne ke liye 
+middle of ll find krne ke liye
 
 
 slow -> move 1 step
