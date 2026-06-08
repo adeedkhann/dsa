@@ -1,0 +1,10 @@
+array ka question hota hai 
+
+subarray me , not in subsequence
+
+minm , max ya prod , freq yahi sab nikalna hota hai 
+optional kuch condition di hogi like , onedelelete , abs and other 
+
+kisi index i par , i-1 par khatam hone wala best result 
+
+
