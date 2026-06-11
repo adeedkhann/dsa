@@ -1,0 +1,10 @@
+ranges , interval in the quess 
+
+
+keywords :
+overlap , coflict , merge p , simultaneous usage , 
+room , load , cpus , meeting
+
+start aur end diya , [1,4] , [3,5]
+
+start se sort krlo , merge krna hota hai

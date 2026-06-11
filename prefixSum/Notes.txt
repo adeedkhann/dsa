@@ -1,0 +1,16 @@
+array subarray wale me hota hai ,
+kadane aur sliding ke baad , 
+jab nnegative na ho to sliding window 
+if negative ho 
+aur subarray nikalna ho with sum<k or sum> k shorteset longest or similar 
+
+
+kadane me subarray ka sum ya to maxm hoga ya minm hoga ya product minm max hoga , k nahi hota kadane me 
+
+
+prefix sum aur sliding window same ques solve karte hai , negative wale me sliding nahi lagega 
+
+if negative try kadane , kadane nahi laga to prefix sum ,
+
+prefix sum , varable , array , hashmap , deque , ye sab me lagta hai 
+
