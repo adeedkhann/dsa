@@ -1,0 +1,18 @@
+stack ko kyu karte hai kyuki wo unique hota hai LIFO 
+
+pattahr utha rahe aur fek rahe , to fir last uthaya hua patthar 
+jo ki recent hai pocket me agar wo chahiye to stack deta hai 
+
+sabse recent wali cheez hi chahiye thi is mamle me
+most recent wala stack hi dega
+
+ek gun me magazine hoti hai like that , jab magzine se goli nikalni hoti hai 
+to pehli wali dikhti hai stack is just like that magazine
+
+push peek pop sab uupar wali ke saath hi karskte hai
+
+
+nearest/previous/next greter/smaller element find krna 
+
+
+
