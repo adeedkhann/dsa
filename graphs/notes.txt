@@ -1,0 +1,5 @@
+graph khud se banana padega items ya node ek dusre se connected rahege 
+connection ko edges , nodes ki vertices 
+
+
+
